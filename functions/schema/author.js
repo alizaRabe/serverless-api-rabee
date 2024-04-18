@@ -21,4 +21,4 @@ authorSchema.pre("save", function (next) {
   next();
 });
 
-module.exports = mongoose.model(authorSchema);
+module.exports = authorSchema;

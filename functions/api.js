@@ -22,4 +22,4 @@ mongoose
   });
 
 app.use("/.netlify/functions/api", router);
-module.exports.handler = serverless(api);
+module.exports.handler = serverless(app);
