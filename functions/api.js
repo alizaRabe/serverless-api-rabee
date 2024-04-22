@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const app = express();
-const dbCloudUrl = process.env.MONGODB_URI;
+const dbCloudUrl = "mongodb+srv://alizarabe:5514200307@webprog.sbgwzrn.mongodb.net/authorDB?retryWrites=true&w=majority&appName=Webprog";
 
 app.use(cors());
 app.use(express.json());
